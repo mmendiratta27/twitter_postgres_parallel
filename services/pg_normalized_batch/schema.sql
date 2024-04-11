@@ -24,7 +24,7 @@ CREATE TABLE users (
     name TEXT,
     location TEXT,
     description TEXT,
-    withheld_in_countries VARCHAR(2)[],
+    withheld_in_countries VARCHAR(2)[]
 );
 
 /*
@@ -49,7 +49,6 @@ CREATE TABLE tweets (
     lang TEXT,
     place_name TEXT,
     geo geometry
-
     -- NOTE:
     -- We do not have the following foreign keys because they would require us
     -- to store many unhydrated tweets in this table.

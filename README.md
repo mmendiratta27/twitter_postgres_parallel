@@ -281,7 +281,7 @@ Ensure that your runtimes on the lambda server are recorded below.
 |                        | elapsed time (sequential) | elapsed time (parallel)   |
 | -----------------------| ------------------------- | ------------------------- |
 | `pg_normalized`        |       8m48.589s                    |        85.47s                   | 
-| `pg_normalized_batch`  |       2m58.929s                    |                           | 
+| `pg_normalized_batch`  |       2m58.929s                    |        Unavailable as outlined in Issue [#495](../../../../mikeizbicki/cmc-csci143/issues/495)             | 
 | `pg_denormalized`      |       0m17.758s                    |        5.93s                    | 
 
 Then upload a link to your forked github repo on sakai.
